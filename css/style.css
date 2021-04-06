@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.github {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateZ(0);
+  z-index: 1;
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 320px) {
+  .github:hover .github__arm {
+      animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.github__arm {
+  transform-origin: 130px 106px;
+}
+
+a.github,
+a.github:hover,
+a.github:focus {
+  border: none;
+  outline: none;
+  border-bottom: none;
+}
+
+@font-face { font-family: 'Cocogoose';
+   src: url('fonts/Cocogoose Pro.ttf') format('truetype');
+}
+
+body {
+  font-family: "Open Sans";
+  background-image: url('../img/seigaiha.png');
+  background-size: 300px;
+  width: 100vw;
+}
+
+.body-container {
+  background-color: #FAFAFA;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 20px  rgba(105, 50, 250, .2);
+  width: 97vw;
+}
+
+.body-container-2 {
+  background-color: #FAFAFA;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 20px  rgba(105, 50, 250, .2);
+  /*height: 93vh;*/
+  width: 97vw;
+  color: #282828;
+}
+
+.body-container-2 {
+  font-weight: 400;
+}
+
+.link-text-bold a {
+  font-weight: 600;
+}
+
+.navvy {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 3%;
+  font-family: "Open Sans";
+  color: #282828;
+  font-weight: 400;
+}
+
+.nav-name {
+  padding-left: 20px;
+  height: 30px;
+  width: 150px;
+  filter: drop-shadow(0px 0px .5px rgba(105, 50, 250, .3));
+  filter: drop-shadow(3px 3px 3px rgba(105, 50, 250, .15));
+}
+
+.nav-name-footer {
+  padding-left: 10px;
+  margin-bottom: -5px;
+  width: 150px;
+  filter: drop-shadow(0px 0px .5px rgba(105, 50, 250, .3));
+  filter: drop-shadow(3px 3px 3px rgba(105, 50, 250, .15));
+}
+
+.fiddy {
+  height: 55vh;
+}
+
+.fiddy span {
+  text-transform: none;
+  font-size: 2.2rem;
+}
+
+.fiddy div {
+  font-family: "Cocogoose";
+}
+
+.fiddy h1 {
+  color: #5d5d9c;
+  width: 75%;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 4rem;
+  text-shadow: 5px 5px 10px rgba(105, 50, 250, .2);
+  letter-spacing: -2px;
+  border-bottom: 2px solid rgba(105, 50, 250, .1);
+  box-shadow: 0px 10px 13px -8px rgba(105, 50, 250, .15);
+}
+
+.bs {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(105, 50, 250, .1);
+  box-shadow: 0px 10px 13px -8px rgba(105, 50, 250, .15);
+}
+
+.fiddy h3 {
+  color: #5d5d9c;
+  margin-top: -20px;
+  padding-top: 0px;
+  padding-left: 7px;
+  font-size: 1.8rem;
+  text-shadow: 3px 3px 5px rgba(105, 50, 250, .2);
+}
+
+.fiddy h4 {
+  color: #5d5d9c;
+}
+
+.fiddy-left {
+  align-self: center;
+  padding: 5% 0% 5% 5%;
+}
+
+.fiddy-right {
+  min-height: 475px;
+  background-image: url('../img/selfportrait-dithered.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 475px;
+  filter: drop-shadow(0px 0px 5px rgba(105, 50, 250, .15));
+}
+
+.bg-sphere4 {
+  height: 45px;
+  width: 45px;
+  filter: drop-shadow(5px 5px 5px rgba(105, 50, 250, .2));
+}
+
+.navbar-section .btn-link {
+  color: #282828;
+}
+
+.pinkish {
+  padding: 150px 0 150px 0;
+}
+
+.moons {
+  padding: 0px 250px 0px 250px;
+}
+
+.moons-landing {
+  padding: 0px 20% 0px 20%;
+  margin-top: 8.5%;
+}
+
+.moons h1 {
+  font-family: "Cocogoose";
+  text-align: center;
+  color: #282828;
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px rgba(105, 50, 250, .2);
+  padding-bottom: 15px;
+}
+
+.name-white {
+  position: relative;
+  width: 200px;
+}
+
+.all-holder {
+  padding: 8% 10% 5% 10%;
+}
+
+.all-holder h1,
+.all-holder h2 {
+  font-family: "Inter";
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  color: #282828;
+}
+
+.all-holder h4 {
+  margin-top: 5px;
+  font-family: "Inter";
+  color: #282828;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  border-bottom: 2px solid rgba(105, 50, 250, .1);
+  box-shadow: 0px 10px 13px -8px rgba(105, 50, 250, .15);
+}
+
+.all-holder p {
+  color: #282828;
+  font-family: "Open Sans";
+}
+
+.all-holder a {
+  font-weight: 900 !important;
+}
+
+.card-holder h1,
+.card-holder h2 {
+  font-family: "Inter";
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  color: #282828;
+}
+
+.card-holder h4 {
+  margin-top: 5px;
+  font-family: "Inter";
+  color: #282828;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  border-bottom: 2px solid rgba(105, 50, 250, .1);
+  box-shadow: 0px 10px 13px -8px rgba(105, 50, 250, .15);
+}
+
+.card-holder p {
+  color: #282828;
+  font-family: "Open Sans";
+}
+
+.card-holder-2 {
+  padding: 2% 10% 5% 10%;
+}
+
+.card-holder-2 h1,
+.card-holder-2 h2 {
+  font-family: "Inter";
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  color: #282828;
+}
+
+.card-holder-2 p {
+  color: #282828;
+  font-family: "Open Sans";
+}
+
+.card {
+  min-height: 470px;
+  /*box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, .15);*/
+  box-shadow: 0 0.25rem 1rem rgba(105, 50, 250, .2);
+  border-radius: 7px;
+  font-family: "Open Sans";
+  /*background-image: url('../img/seigaiha.png');
+  background-size: 300px;*/
+}
+
+.card-title {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px rgba(105, 50, 250, .2);
+  color: #282828;
+}
+
+.footer-smoke {
+  background: linear-gradient(rgba(105, 50, 250, 0), rgba(105, 50, 250, 0), rgba(105, 50, 250, .3));
+}
+
+.h7 {
+  position: relative;
+}
+
+.h7:after,
+.h7:before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-style: solid;
+  position: absolute
+}
+
+.h7:before {
+  top: 8px;
+  left: 8px;
+  width: 20px;
+  height: 40px;
+  border-width: 1rem 1rem 0 0;
+  border-color: #5d5d9c;
+}
+
+.h7:after {
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 20px;
+  border-width: 1rem 1rem 0 0;
+  border-color: #5d5d9c;
+}
+
+.h8 {
+  position: relative;
+}
+
+.h8:after,
+.h8:before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-style: solid;
+  position: absolute
+}
+
+.h8:before {
+  bottom: 8px;
+  right: 8px;
+  width: 40px;
+  height: 20px;
+  border-width: 1rem 1rem 0 0;
+  border-color: #5d5d9c;
+}
+
+.h8:after {
+  bottom: 8px;
+  right: 8px;
+  width: 20px;
+  height: 40px;
+  border-width: 1rem 1rem 0 0;
+  border-color: #5d5d9c;
+}
+
+@media (max-width: 1280px) {
+  .fiddy-right {
+    background-size: 420px;
+  }
+
+  .fiddy h1 {
+    margin-top: 0%;
+    font-size: 3.4rem;
+  }
+
+  .fiddy h3 {
+    margin-top: -15px;
+    padding-top: 0px;
+    font-size: 1.7rem;
+  }
+
+  .navvy {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 3%;
+  }
+
+  .card-holder {
+    margin-top: -70px;
+  }
+
+  .card-holder h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-holder-2 h2 {
+    font-size: 1.3rem;
+  }
+
+  .moons {
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media (max-width: 960px) {
+  .fiddy-right {
+    background-size: 375px;
+  }
+
+  .fiddy h1 {
+    font-size: 3.2rem;
+  }
+
+  .fiddy h3 {
+    font-size: 1.4rem;
+  }
+
+  .card-holder {
+    margin-top: -120px;
+  }
+
+  .moons {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .moons h1 {
+    font-size: 3.6rem;
+  }
+}
+@media (max-width: 840px) {
+  .fiddy {
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .fiddy-left {
+    text-align: center;
+  }
+
+  .fiddy-left h1 {
+    width: 100%;
+  }
+
+  .card-holder {
+    margin-top: -60px;
+  }
+
+  .card-holder h2 {
+    font-size: 1.2rem;
+  }
+
+  .card-holder-2 h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+
+  .card-holder {
+    margin-top: -40px;
+  }
+
+  .moons {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .moons h1 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 480px) {
+  .navvy {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-right: 0%;
+  }
+
+  .fiddy h1 {
+    margin-top: -10px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    font-size: 2rem;
+  }
+
+  .fiddy h3 {
+    margin-top: -15px;
+    padding-top: 5px;
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-holder {
+    margin-top: -30px;
+  }
+
+  .card-holder h2 {
+    font-size: 1rem;
+  }
+
+  .card-holder-2 h2 {
+    font-size: 1rem;
+  }
+
+  .moons h1 {
+    font-size: 2.2rem;
+  }
+}
